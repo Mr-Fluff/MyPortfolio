@@ -79,7 +79,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #04080f;
   overflow-y: auto;
 }
 
@@ -91,7 +91,7 @@ h6 {
 }
 
 #header .profile h1 {
-  font-size: 21px;
+  font-size: 17px;
   margin: 0;
   padding: 0;
   font-weight: 600;
