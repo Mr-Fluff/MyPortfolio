@@ -71,9 +71,9 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   position: fixed;
-  top: 0;
+  top: 50px;
   left: 0;
-  bottom: 0;
+  bottom: 50px;
   width: 300px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
