@@ -1079,7 +1079,7 @@ section {
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
-  left: 100px;
+  left: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;
@@ -1099,7 +1099,7 @@ section {
 
 @media (max-width: 1199px) {
   #footer {
-    position: static;
+    position: absolute;
     width: auto;
     padding-right: 20px 15px;
   }
