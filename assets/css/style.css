@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #64caca;
+  color: #94caca;
   text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #64caca;
+  background: #94caca;
   color: rgb(0, 0, 0);
 }
 
