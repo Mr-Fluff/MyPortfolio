@@ -91,7 +91,12 @@
       <div class="container">
 
         <div class="row gy-4">
-
+          <script>
+            var swiper = new Swiper('.portfolio-details-slider', {
+              autoplay: null, // Disable autoplay
+              // Other swiper configuration options...
+            });
+          </script>
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
@@ -108,12 +113,7 @@
               <div class="swiper-pagination"></div>
             </div>
           </div>
-          <script>
-            var swiper = new Swiper('.portfolio-details-slider', {
-              autoplay: null, // Disable autoplay
-              // Other swiper configuration options...
-            });
-          </script>
+          
           
 
           <div class="col-lg-4">
