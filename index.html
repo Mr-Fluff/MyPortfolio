@@ -289,9 +289,34 @@
             </div>
           </div>
         </div>
-        <!-- Add the Download Resume button -->
+        <style>
+          .btn-primary {
+            background-color: transparent;
+            border: 2px solid #149ddd;
+            color: #149ddd;
+            padding: 10px 20px;
+            position: relative;
+            overflow: hidden;
+          }
+        
+          .btn-primary:before {
+            content: "";
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            border: 2px solid #149ddd;
+            pointer-events: none;
+          }
+        
+          .btn-transparent:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+            color: #5eb9e2;
+          }
+        </style>
         <div class="text-center">
-          <a href="path/to/your/resume.pdf" download class="btn btn-primary">Download Resume</a>
+          <a href="assets/Srinivasa Sai_CV.pdf" download class="btn btn-primary btn-transparent">Download Resume</a>
         </div>
       </div>
     </section>
