@@ -352,14 +352,14 @@ section {
   color: #000000;
 }
 
-#hero h2 {
+#about h2 {
   color: #000;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
-#hero h2 span {
+#about h2 span {
   color: #000;
   padding-bottom: 4px;
   letter-spacing: 1px;
