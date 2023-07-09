@@ -352,20 +352,6 @@ section {
   color: #000000;
 }
 
-.about p {
-  color: #fff;
-  margin-bottom: 50px;
-  font-size: 26px;
-  font-family: "Poppins", sans-serif;
-}
-
-.about p span {
-  color: #fff;
-  padding-bottom: 4px;
-  letter-spacing: 1px;
-  border-bottom: 3px solid #24ca77;
-}
-
 .about .content ul {
   list-style: none;
   padding: 0;
