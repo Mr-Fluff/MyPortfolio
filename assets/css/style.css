@@ -459,11 +459,18 @@ section {
   height: 10px;
 }
 
-.skills .progress-bar {
+.skills .progress-bar-tech {
   width: 1px;
   height: 10px;
   transition: 0.9s;
   background-color: #24caca;
+}
+
+.skills .progress-bar-soft {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #caca24;
 }
 
 /*--------------------------------------------------------------
