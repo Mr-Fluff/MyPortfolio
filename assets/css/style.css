@@ -466,6 +466,16 @@ section {
   background-color: #24caca;
 }
 
+.tech-skills img {
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.tech-skills img:hover {
+  transform: scale(1.1);
+}
+
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
