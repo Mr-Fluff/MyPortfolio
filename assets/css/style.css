@@ -466,13 +466,23 @@ section {
   background-color: #24caca;
 }
 
-.skill .tech-skills img {
-  margin: 10px;
-  transition: transform 0.3s ease;
+.tech-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.skill .tech-skills img:hover {
-  transform: scale(1.1);
+.skill-icon {
+  filter: grayscale(100%);
+  margin: 20px;
+  transition: filter 0.3s ease, transform 0.3s ease;
+  width: 60px; /* Adjust based on your preference */
+}
+
+.skill-icon:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1); /* Slightly enlarge icons on hover */
 }
 
 
