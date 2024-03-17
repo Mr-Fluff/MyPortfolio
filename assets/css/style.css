@@ -482,7 +482,7 @@ section {
 
 .skill-icon:hover {
   filter: grayscale(0%);
-  transform: scale(1.2); /* Slightly enlarge icons on hover */
+  transform: scale(1.1); /* Slightly enlarge icons on hover */
 }
 
 
