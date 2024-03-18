@@ -102,9 +102,21 @@
   <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container">
+      <!-- Updated with typewriter effect for greetings -->
+      <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Hello!, नमस्ते!, こんにちは!, 안녕하세요!</h2>
+          <h2 id="greeting"></h2>
+          <script>
+            const greetings = ["Hello!", "नमस्ते!", "こんにちは!", "안녕하세요!"];
+            let currentGreeting = 0;
+            const typeGreeting = () => {
+              if (currentGreeting >= greetings.length) currentGreeting = 0;
+              document.getElementById('greeting').textContent = greetings[currentGreeting];
+              currentGreeting++;
+              setTimeout(typeGreeting, 2000); // Change greeting every 2 seconds
+            };
+            typeGreeting();
+          </script>
           <p style="text-align: justify;">I am Srinivasa Sai Damarla, an aspiring Data Scientist with a proven track record in Deep Learning, Artificial Intelligence and Data Analysis. I am currently pursuing my Master of Computing degree in Data Science at the Australian National University. I am a skilled leader with excellent project management and team collaboration skills. I am dedicated to driving responsible innovation and delivering impactful solutions that align with organisational goals.</p>
         </div>
       </div>
